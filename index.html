@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Matheus Belini — Portfólio</title>
+
+  <!-- Icons & Font -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="imgs/LOGO.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="interface">
+      <a class="logo" href="index.html" aria-label="Página inicial">
+        <img src="imgs/LOGO.png" alt="Logo" />
+      </a>
+
+      <nav class="nav-desktop" aria-label="Navegação principal">
+        <ul>
+          <li><a href="index.html#home">Início</a></li>
+          <li><a href="index.html#especialidades">Especialidades</a></li>
+          <li><a href="index.html#projetos-recentes">Projetos</a></li>
+          <li><a href="index.html#sobre">Sobre</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn-cta" href="index.html#contato">Contato</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="interface hero-grid">
+        <div class="hero-text">
+          <h1>Transformando ideias em experiências digitais<span class="accent">.</span></h1>
+          <p>Desenvolvo websites e aplicações com foco em usabilidade, performance e design que gera impacto. Vamos construir algo incrível juntos?</p>
+        </div>
+
+        <div class="hero-image">
+          <!-- Substitua por imgs/NOTEBOOK.png -->
+          <img src="imgs/NOTEBOOK.png" alt="Pré-visualização de projeto" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ESPECIALIDADES -->
+    <section id="especialidades" class="section dark-section">
+      <div class="interface">
+        <h2 class="section-title">Minhas <span>Especialidades</span></h2>
+        <div class="cards-row">
+          <article class="feature-card">
+            <i class="bi bi-laptop feature-icon" aria-hidden="true"></i>
+            <h3>Websites</h3>
+            <p>Sites responsivos, performáticos e acessíveis usando HTML, CSS e JavaScript moderno.</p>
+          </article>
+
+          <article class="feature-card">
+            <i class="bi bi-phone feature-icon" aria-hidden="true"></i>
+            <h3>Aplicativos</h3>
+            <p>Desenvolvimento de apps com foco em UX e integração com backend e APIs.</p>
+          </article>
+
+          <article class="feature-card">
+            <i class="bi bi-code-slash feature-icon" aria-hidden="true"></i>
+            <h3>Front-End</h3>
+            <p>Componentização, boas práticas e atenção à performance e semântica do código.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS RECENTES (mini seção) -->
+    <section id="projetos-recentes" class="section">
+      <div class="interface">
+        <h2 class="section-title">Meus <span>Projetos</span></h2>
+
+        <div class="projects-grid">
+          <!-- 4 CARDS PRONTOS PARA SUBSTITUIR IMAGENS E LINKS -->
+          <article class="project-card">
+            <div class="card-media">
+              <img src="imgs/Image Site New.png" alt="Preview Projeto 1">
+            </div>
+            <div class="card-body">
+              <h3>Projeto 1</h3>
+              <p>Descrição curta — explique o que foi feito e as tecnologias usadas (ex.: HTML, CSS, JS).</p>
+              <div class="card-actions">
+                <a href="https://admesporte.alwaysdata.net" target="_blank" class="btn-sm">Ver Projeto </a>
+                <a href="https://example.com/code1" target="_blank" class="btn-sm btn-outline">Ver Código</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="card-media"><img src="imgs/projetos/projeto2.png" alt="Preview Projeto 2"></div>
+            <div class="card-body">
+              <h3>Projeto 2</h3>
+              <p>Descrição curta — destaque seu papel (ex.: design + front-end).</p>
+              <div class="card-actions">
+                <a href="https://example.com/project2" target="_blank" class="btn-sm">Ver Projeto</a>
+                <a href="https://example.com/code2" target="_blank" class="btn-sm btn-outline">Ver Código</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="card-media"><img src="imgs/projetos/projeto3.png" alt="Preview Projeto 3"></div>
+            <div class="card-body">
+              <h3>Projeto 3</h3>
+              <p>Descrição curta — mencione resultados ou melhorias alcançadas.</p>
+              <div class="card-actions">
+                <a href="https://example.com/project3" target="_blank" class="btn-sm">Ver Projeto</a>
+                <a href="https://example.com/code3" target="_blank" class="btn-sm btn-outline">Ver Código</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="card-media"><img src="imgs/projetos/projeto4.png" alt="Preview Projeto 4"></div>
+            <div class="card-body">
+              <h3>Projeto 4</h3>
+              <p>Descrição curta — cite ferramentas e desafios resolvidos.</p>
+              <div class="card-actions">
+                <a href="https://example.com/project4" target="_blank" class="btn-sm">Ver Projeto</a>
+                <a href="https://example.com/code4" target="_blank" class="btn-sm btn-outline">Ver Código</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="section dark-section">
+      <div class="interface about-grid">
+        <div class="about-photo">
+          <img src="imgs/foto perfil.jpg" alt="Foto de perfil">
+        </div>
+        <div class="about-text">
+          <h2>Prazer — <span>sou Matheus</span></h2>
+          <p>Estudante de programação com paixão por front-end e experiência do usuário. Buscando oportunidades para aplicar e aumentar minhas habilidades em projetos reais — criando interfaces claras, acessíveis e performáticas.</p>
+
+          <div class="socials">
+            <a href="https://github.com/matheusbelini" target="_blank" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.instagram.com/matheusbelinii/#" target="_blank" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+<section id="contato">
+    <h2 class="section-title">Entre em <span>Contato</span></h2>
+    <h4 class="section-title">Matheusbelini4@gmail.com</h4>
+</section>
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="interface footer-grid">
+      <div class="year">
+        <p>© <span id="year"></span> — Desenvolvido por <strong>Matheus Belini</strong></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
