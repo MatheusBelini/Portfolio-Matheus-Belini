@@ -42,6 +42,8 @@ O projeto demonstra meu domínio nas seguintes tecnologias:
 
 3. **Abra o arquivo index.html em seu navegador de preferência para visualizar o portfólio**
 
+🔗 **Acesse o site:** https://portfoliomatheusbelini.netlify.app/
+
 ## 📬 Vamos Conversar?
 
 Estou em busca da minha primeira oportunidade na área de desenvolvimento para aplicar meus conhecimentos técnicos e contribuir com soluções eficientes[cite: 9, 38].
