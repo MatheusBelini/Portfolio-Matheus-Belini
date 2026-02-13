@@ -30,6 +30,7 @@ O projeto demonstra meu domínio nas seguintes tecnologias:
 ├── js/                 # Scripts e interatividade (script.js)
 ├── imgs/               # Imagens e ícones do projeto
 └── index.html          # Estrutura principal do portfólio
+```
 
 ## 🚀 Como Executar
 
