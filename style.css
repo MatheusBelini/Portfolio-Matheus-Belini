@@ -119,6 +119,25 @@ img { max-width: 100%; height: auto; display: block; }
 
 /* BOTÕES */
 .btn-primary { background: var(--accent); color: #000; padding: 12px 25px; border-radius: 10px; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 8px; }
+.btn-code {
+    background: #0b0b0d;      /* preto do seu site */
+    color: #ffb544;           /* amarelo da paleta */
+    padding: 12px 25px;
+    border-radius: 10px;
+    border: 2px solid #ffb544; /* borda amarela */
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.3s;
+}
+
+.btn-code:hover {
+    background: #1a1a1a;      /* escurece um pouco no hover */
+    color: #ffb544;
+    border-color: #ffb544;
+}
 .btn-outline { border: 1px solid var(--accent); color: var(--text); padding: 12px 25px; border-radius: 10px; text-decoration: none; }
 
 /* MOBILE MENU & OVERLAY */
@@ -333,4 +352,9 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+.project-links {
+    display: flex;
+    gap: 15px; /* espaço entre os botões */
+    margin-top: 15px; /* opcional, para dar distância do texto */
 }
